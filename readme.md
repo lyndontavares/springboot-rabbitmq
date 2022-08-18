@@ -31,13 +31,11 @@ docker-compose up -d
 
 ### Curl
 
+```bash
 curl --location --request PUT 'http://localhost:8080/preco' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "codigoproduto":"001",
     "preco":1000
 }'
-
-
-
-
+```
